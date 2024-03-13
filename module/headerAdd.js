@@ -4,7 +4,6 @@ import { logoComponent } from "./header/nav_components/logoComponent.js";
 
 export const headerAdd = () => {
   const logo = logoComponent();
-  console.log(logo);
 
   const navList = navListComponent();
   const nav = document.createElement("nav");
